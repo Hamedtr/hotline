@@ -1,3 +1,1 @@
-self.addEventListener('install', function (e) {
-  console.log('Service Worker Installed');
-});
+navigator.serviceWorker.register("/hotline/service-worker.js")
